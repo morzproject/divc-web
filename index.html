@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIVC 2023 - Dengue Innovation Video Competition 2023</title>
+    <style>
+        body {
+            background-color: #263743;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .centered-container {
+            width: 100vw;
+            height: 100vh;
+            max-width: 1280px;
+            max-height: 903px;
+            background-image: url('images/coverpage.jpg'); /* Update with your actual image file path */
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+<div class="centered-container"></div>
+<script src='js/fireflies.js'></script>
+<script>
+    (function() {
+        fireFlies({
+            "number_flies": 200,
+            "color": "#FCD271",
+            "elem": "body"
+        });
+    })();
+</script>
+</body>
+</html>
